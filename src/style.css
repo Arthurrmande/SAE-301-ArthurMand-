@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+
+@theme inline {
+  --color-bg-footer: var(--clr-black);
+  --color-bg: var(--clr-white);
+  --color-bg-nav: var(--clr-gray-200);
+
+  --font-sans: 'Helvetica', 'sans-serif';
+  --font-sans-title: 'Nike Futura ND', 'sans-serif';
+
+  --color-beige: var(--clr-beige-500);
+  --color-marron: var(--clr-brown-500);
+}
+
+@layer base {
+  :root {
+      --clr-white: oklch(100% 0 0);   
+      --clr-black: oklch(0% 0 0);
+
+      --clr-gray-100: oklch(95.3% 0.009 255.33);
+      --clr-gray-200: oklch(89.8% 0.012 255.43);
+      --clr-gray-300: oklch(83.9% 0.015 254.91);
+      --clr-gray-400: oklch(71.9% 0.02 254.68);
+      --clr-gray-500: oklch(58.8% 0.02 254);
+      --clr-gray-600: oklch(50.9% 0.021 253.86);
+
+      --clr-orange-500: oklch(69.5% 0.17 63.54);
+      --clr-blue-500: oklch(53.9% 0.22 263.54);
+      --clr-blue-300: oklch(73.35% 0.13407 263.276);
+      --clr-red-500: oklch(53.9% 0.22 27.54);
+      --clr-purple-500: oklch(51.469% 0.26261 308.408);
+      --clr-red-900: oklch(28.956% 0.11802 27.014);
+      --clr-beige-500: oklch(82.623% 0.04819 88.296);
+      --clr-brown-500: oklch(45.6% 0.128 76.54);
+  }
+
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('/public/fonts/Helvetica.woff') format('woff');
+    font-weight: 400; /* normal */
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('/public/fonts/Helvetica-Bold.woff') format('woff');
+    font-weight: 700; /* bold */
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Nike Futura ND';
+    src: url('/public/fonts/Nike\ Futura\ ND.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+  }
+}

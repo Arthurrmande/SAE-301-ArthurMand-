@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAE-301-Tailwind</title>
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+
+  <body class="font-sans items-center justify-center ml-160 mt-20">
+
+    <nav class="flex items-center px-6 py-3">
+      <img src="/public/Images/Logo_NIKE.png" alt="Nike Logo" class="h-10">
+      <img src="/public/Images/Jumpman_logo.png" alt="Jordan Logo" class="h-15">
+    </nav>
+      
+    <main class="container max-w-2xl px-4 py-12">
+      <h1 class="text-4xl lg:text-5xl font-bold mb-20">Saisis tes informations pour te connecter</h1>
+
+      <form action="#" method="POST">
+              <section class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-5">
+                  <label class="md:col-span-2">
+                      <input type="text" placeholder="Email" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
+                  </label>
+                  <label>
+                    <input type="password" placeholder="Mot de passe" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
+                    <p class="text-xs text-gray-500 mt-1 ml-1">Minimum 8 caractères</p>
+                 </label>
+              </section>
+          </section>
+
+          <section class="text-center mt-20">
+            <button type="submit" class="w-full max-w-xs bg-black text-white font-semibold py-3 px-6 rounded-full hover:bg-gray-500 transition-colors duration-200">
+                Se connecter
+            </button>
+        </section>
+      </form>
+  </main>
+  </body>
+</html> 
