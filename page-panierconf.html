@@ -34,7 +34,7 @@
     </nav>
 
     <nav class="flex items-center justify-between px-6 py-3 border-b border-gray-200">
-      <img src="/public/Images/Logo_NIKE.png" alt="Nike Logo" class="h-6">
+        <img src="/public/Images/Logo_NIKE.png" alt="Nike Logo" class="h-6">
       
       <section class="flex items-center space-x-4 ml-30">
         <ul class="flex space-x-4">
@@ -78,7 +78,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
         </svg>
-        <h2 class="text-xl font-sans ml-5">Retourner au panier</h2>
+        <a class="text-2xl font-sans ml-5" href="/page-panier.html">Retour aux produits</a>
       </section>
 
       <section class="items-center justify-center">
@@ -97,12 +97,12 @@
             </p>
 
             <section class="flex flex-col gap-4 items-center justify-center">
-              <button class="w-full max-w-xs bg-black text-white font-semibold py-3 rounded-full hover:bg-gray-500 transition-colors duration-200">
-                Se connecter
-              </button>
-              <button class="w-full max-w-xs bg-black text-white font-semibold py-3 rounded-full hover:bg-gray-500 transition-colors duration-200">
-                S'inscrire
-              </button>
+              <a href="/page-connexion.html" role="button" class="w-full max-w-xs bg-black text-white font-semibold py-3 rounded-full mt-8 hover:bg-gray-500 transition-colors duration-200 text-center">
+                Se connecter                
+              </a>
+              <a href="/page-creacompte.html" role="button" class="w-full max-w-xs bg-black text-white font-semibold py-3 rounded-full mt-4 hover:bg-gray-500 transition-colors duration-200 text-center">
+                S'inscrire                
+              </a>
             </section>
 
           </article>
@@ -115,13 +115,12 @@
             <p class="text-gray-600 mb-6 text-center">
               Tu peux créer gratuitement un profil de membre Nike à tout moment pendant le processus de paiement.
             </p>
-
+            
             <section class="flex flex-col gap-4 items-center justify-center">
-              <button class="w-full max-w-xs bg-black text-white font-semibold py-3 rounded-full hover:bg-gray-500 transition-colors duration-200">
-                Paiement invité
-              </button>
+              <a href="/page-finalcommande.html" role="button" class="w-full max-w-xs bg-black text-white text-center font-semibold py-3 rounded-full hover:bg-gray-500 transition-colors duration-200">
+                Paiement invité               
+              </a>
             </section>
-
           </article>
           
         </section>
