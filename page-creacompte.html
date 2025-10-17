@@ -7,73 +7,75 @@
     <link rel="stylesheet" href="src/style.css">
   </head>
 
-  <body class="font-sans items-center justify-center ml-160 mt-20">
+  <body class="font-sans min-h-screen flex items-center justify-center bg-gray-50 mt-20">
+    <section class="w-full max-w-2xl">
 
-    <nav class="flex items-center px-6 py-3">
-      <img src="/public/Images/Logo_NIKE.png" alt="Nike Logo" class="h-10">
-      <img src="/public/Images/Jumpman_logo.png" alt="Jordan Logo" class="h-15">
-    </nav>
-      
-    <main class="container max-w-2xl px-4 py-12">
-      <h1 class="text-4xl lg:text-5xl font-bold mb-10">Saisis tes informations pour nous rejoindre</h1>
+        <nav class="flex items-center px-6 py-3">
+        <img src="/public/Images/Logo_NIKE.png" alt="Nike Logo" class="h-10">
+        <img src="/public/Images/Jumpman_logo.png" alt="Jordan Logo" class="h-15">
+        </nav>
+        
+        <main class="container max-w-2xl px-4 py-12">
+        <h1 class="text-4xl lg:text-5xl font-bold mb-10">Saisis tes informations pour nous rejoindre</h1>
 
-      <form action="#" method="POST">
-          <section class="mb-8">
-              <h2 class="text-2xl font-semibold mb-6">Informations personnelles</h2>
-              <section class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-5">
-                  <label for="prenom">
-                      <input type="text" placeholder="Prénom" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
-                  </label>
-                  <label for="nom">
-                      <input type="text" placeholder="Nom" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
-                  </label>
-                  <label for="email">
-                      <input type="email" placeholder="Email" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
-                  </label>
-                  <label for="telephone">
-                      <input type="tel" placeholder="N° téléphone" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
-                  </label>
-              </section>
-          </section>
+        <form action="#" method="POST">
+            <section class="mb-8">
+                <h2 class="text-2xl font-semibold mb-6">Informations personnelles</h2>
+                <section class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-5">
+                    <label for="prenom">
+                        <input type="text" placeholder="Prénom" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
+                    </label>
+                    <label for="nom">
+                        <input type="text" placeholder="Nom" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
+                    </label>
+                    <label for="email">
+                        <input type="email" placeholder="Email" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
+                    </label>
+                    <label for="telephone">
+                        <input type="tel" placeholder="N° téléphone" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
+                    </label>
+                </section>
+            </section>
 
-          <section class="mb-8">
-              <h2 class="text-2xl font-semibold mb-6">Adresse</h2>
-              <section class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-5">
-                  <label class="md:col-span-2">
-                      <input type="text" placeholder="Adresse" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
-                  </label>
-                  <label>
-                      <input type="text" placeholder="Code postal" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
-                  </label>
-                  <label>
-                      <input type="text" placeholder="Ville" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
-                  </label>
-              </section>
-          </section>
+            <section class="mb-8">
+                <h2 class="text-2xl font-semibold mb-6">Adresse</h2>
+                <section class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-5">
+                    <label class="md:col-span-2">
+                        <input type="text" placeholder="Adresse" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
+                    </label>
+                    <label>
+                        <input type="text" placeholder="Code postal" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
+                    </label>
+                    <label>
+                        <input type="text" placeholder="Ville" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
+                    </label>
+                </section>
+            </section>
 
-          <section class="mb-10">
-              <h2 class="text-2xl font-semibold mb-6">Sécurité</h2>
-              <section class="space-y-5">
-                  <label>
-                      <input type="password" placeholder="Mot de passe" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
-                      <p class="text-xs text-gray-500 mt-1 ml-1">Minimum 8 caractères</p>
-                  </label>
-                  <label>
-                      <input type="password" placeholder="Confirmer le mot de passe" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
-                      <p class="text-xs text-gray-500 mt-1 ml-1">Minimum 8 caractères</p>
-                  </label>
-              </section>
-          </section>
+            <section class="mb-10">
+                <h2 class="text-2xl font-semibold mb-6">Sécurité</h2>
+                <section class="space-y-5">
+                    <label>
+                        <input type="password" placeholder="Mot de passe" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
+                        <p class="text-xs text-gray-500 mt-1 ml-1">Minimum 8 caractères</p>
+                    </label>
+                    <label>
+                        <input type="password" placeholder="Confirmer le mot de passe" class="w-full border border-gray-300 rounded-md py-3 px-4 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent">
+                        <p class="text-xs text-gray-500 mt-1 ml-1">Minimum 8 caractères</p>
+                    </label>
+                </section>
+            </section>
 
-          <section class="text-center">
-              <button type="submit" class="w-full max-w-xs bg-black text-white font-semibold py-3 px-6 rounded-full hover:bg-gray-500 transition-colors duration-200">
-                  Créer mon compte
-              </button>
-              <p class="mt-4 text-sm">
-                  Vous avez déjà un compte ? <a href="#" class="font-semibold underline hover:text-gray-500">Se connecter</a>
-              </p>
-          </section>
-      </form>
-  </main>
+            <section class="text-center">
+                <button type="submit" class="w-full max-w-xs bg-black text-white font-semibold py-3 px-6 rounded-full hover:bg-gray-500 transition-colors duration-200">
+                    Créer mon compte
+                </button>
+                <p class="mt-4 text-sm">
+                    Vous avez déjà un compte ? <a href="#" class="font-semibold underline hover:text-gray-500">Se connecter</a>
+                </p>
+            </section>
+        </form>
+    </main>
+    </section>
   </body>
 </html> 
