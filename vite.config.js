@@ -4,7 +4,7 @@ import { resolve } from "path";
 
 export default defineConfig({
   plugins: [tailwindcss()],
-  base: "/nom-du-repo/",  // ⚠️ Remplacer par le nom de votre dépôt GitHub
+  base: "SAE-301-ArthurMand-",  // ⚠️ Remplacer par le nom de votre dépôt GitHub
   build: {
     rollupOptions: {
       input: {
