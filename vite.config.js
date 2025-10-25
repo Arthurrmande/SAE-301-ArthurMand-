@@ -18,7 +18,7 @@ export default defineConfig({
 
         pagecreacompte: resolve(__dirname, "pages/page-creacompte.html"),
 
-        pagefinalcommande1: resolve(__dirname, "pages/page-finalcommande1.html"),
+        pagefinalcommande1: resolve(__dirname, "pages/page-finalcommande.html"),
         pagefinalcommande2: resolve(__dirname, "pages/page-finalcommande2.html"),
         pagefinalcommande3: resolve(__dirname, "pages/page-finalcommande3.html"),
 
